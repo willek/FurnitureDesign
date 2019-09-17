@@ -38,6 +38,7 @@
   </div>
 </section>
 
+@if($related_product->isNotEmpty())
 <section class="section gradient-bgcolor section-padding-top-bottom">
   <div class="container">
     <div class="sixteen columns">
@@ -57,6 +58,7 @@
     @endforeach
   </div>
 </section>
+@endif
 @endsection
 
 @section('script')
